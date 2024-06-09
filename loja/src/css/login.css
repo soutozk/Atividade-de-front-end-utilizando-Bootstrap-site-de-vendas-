@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 6, 37);
+}
+
+.back-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #0069d9;
+    border: none;
+}
+
+.back-button:hover{
+background-color: #0069d95e !important;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+
+    width:  300px;
+    height: auto;
+    
+}
